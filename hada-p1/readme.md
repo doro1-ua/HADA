@@ -7,3 +7,5 @@ P2. ¿Qué cambios se han producido al ejecutar el comando reset?
 P3. ¿Qué diferencias observas entre revert y reset?
 	Con el revert controlo a donde quiero volver con el reset solo deshago
 	lo utlimo que he hecho
+P4. ¿Qué diferencias observas entre merge y rebase?
+	Merge las combina mientras que rebase hace que la rama que hacer rebase parezca que la has creado desde la otra
