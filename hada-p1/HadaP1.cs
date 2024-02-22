@@ -13,7 +13,7 @@
             else
             {
 
-                //Devuelve la conversion
+                
                 return s / 60;
             }
         }
