@@ -4,6 +4,7 @@ namespace hada_p1
 {
     class Program
     {
+        //maIN
         static void Main(string[] args)
         {
             string respuesta;
