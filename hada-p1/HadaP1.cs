@@ -23,6 +23,9 @@
             return m * 60;
         }
 
-
+        public static double Hours2Minutes(double h)
+        {
+            return h * 60;
+        }
     }
 }

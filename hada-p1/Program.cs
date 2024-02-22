@@ -16,7 +16,7 @@ namespace hada_p1
             {
 
 
-                Console.WriteLine("¿De que unidad partimos s/m?");
+                Console.WriteLine("¿De que unidad partimos s/m/h?");
                 respuesta = Console.ReadLine();
                 
                 if (respuesta == "s")
@@ -26,6 +26,16 @@ namespace hada_p1
                     pasar = double.Parse(unidad);
                     double v = HadaP1.Seconds2Minutes(pasar);
                     Console.WriteLine("Hemos pasado de " + pasar + " segundos a " + v +" minutos");
+                }
+                else if(respuesta == "h"){
+
+                    Console.WriteLine("Introduce las horas que quieres convertir");
+                    unidad = Console.ReadLine();
+                    pasar = double.Parse(unidad);
+                    double v = HadaP1.Hours2Minutes(pasar);
+                    Console.WriteLine("Hemos pasado de " + pasar + " horas a " + v + " minutos");
+
+
                 }
                 else
                 {
